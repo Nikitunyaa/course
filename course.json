@@ -1,0 +1,17 @@
+/**
+ Export to JSON plugin for PHPMyAdmin
+ @version 0.1
+ */
+
+// Database 'course'
+// course.customers
+
+[{"cid": 1,"cname": "Иванов","city": "Москва"}, {"cid": 2,"cname": "Петров","city": "Санкт-Петербург"}, {"cid": 3,"cname": "Сидоров","city": "Новосибирск"}, {"cid": 6,"cname": "Андреенко","city": "Смоленск"}, {"cid": 7,"cname": "Кирилленко","city": "Киров"}, {"cid": 9,"cname": "Петренко","city": "Киров"}, {"cid": 10,"cname": "Сергеев","city": "Смоленск"}, {"cid": 17,"cname": "Симонов","city": "Новокузнецк"}]// course.operations
+
+[{"oid": 2,"amt": 1,"cid": 1,"pid": 2,"odate": "2023-10-31"}, {"oid": 3,"amt": 1,"cid": 1,"pid": 2,"odate": "2023-10-31"}, {"oid": 4,"amt": 1,"cid": 1,"pid": 2,"odate": "2023-10-31"}, {"oid": 12,"amt": 45,"cid": 2,"pid": 1,"odate": "2023-10-25"}, {"oid": 26,"amt": 3,"cid": 1,"pid": 20,"odate": "2023-10-20"}, {"oid": 78,"amt": 10,"cid": 1,"pid": 20,"odate": "2023-11-01"}, {"oid": 79,"amt": 40,"cid": 2,"pid": 12,"odate": "2023-11-04"}, {"oid": 80,"amt": 7,"cid": 2,"pid": 12,"odate": "2023-11-03"}, {"oid": 81,"amt": 1,"cid": 2,"pid": 24,"odate": "2023-10-27"}, {"oid": 82,"amt": 7,"cid": 2,"pid": 24,"odate": "2023-10-26"}, {"oid": 83,"amt": 2,"cid": 6,"pid": 27,"odate": "2023-10-30"}]// course.users
+
+[{"id": 1,"login": "accountant","password": "accountantpass","position": "accountant"}, {"id": 2,"login": "admin","password": "adminpass","position": "admin"}, {"id": 8,"login": "hres","password": "hrpass","position": "HR"}, {"id": 18,"login": "acc","password": "accp","position": "accountant"}, {"id": 21,"login": "adm","password": "admin","position": "accountant"}]// course.warehouse
+
+[{"pid": 1,"pname": "Столы","cid": 2,"arrdate": "2023-10-10","amt": 154}, {"pid": 2,"pname": "Чайники","cid": 1,"arrdate": "2023-10-09","amt": 97}, {"pid": 3,"pname": "Клетки","cid": 3,"arrdate": "2023-10-15","amt": 200}, {"pid": 4,"pname": "Кирпичи","cid": 2,"arrdate": "2023-10-19","amt": 5000}, {"pid": 7,"pname": "Книги","cid": 3,"arrdate": "2023-10-18","amt": 100}, {"pid": 10,"pname": "Коробки","cid": 1,"arrdate": "2023-10-04","amt": 50}, {"pid": 11,"pname": "Люки","cid": 2,"arrdate": "2023-10-05","amt": 63}, {"pid": 21,"pname": "Угли","cid": 2,"arrdate": "2023-10-26","amt": 195}, {"pid": 22,"pname": "Кегли","cid": 1,"arrdate": "2023-11-02","amt": 33}, {"pid": 25,"pname": "Древесина","cid": 6,"arrdate": "2023-10-25","amt": 32}]// course.workers
+
+[{"wid": 1,"wname": "Сергеенко","speciality": "охранник","shift": "день"}, {"wid": 2,"wname": "Петренко","speciality": "охранник","shift": "ночь"}, {"wid": 3,"wname": "Мышкин","speciality": "бухгалтер","shift": "день"}, {"wid": 4,"wname": "Никифоров","speciality": "бухгалтер","shift": "день"}, {"wid": 5,"wname": "Макаренко","speciality": "грузчик","shift": "день"}, {"wid": 6,"wname": "Кирилленко","speciality": "грузчик","shift": "ночь"}, {"wid": 7,"wname": "Космачев","speciality": "ИС","shift": "день"}, {"wid": 8,"wname": "Дыбовский","speciality": "ИС","shift": "день"}, {"wid": 10,"wname": "Павлов","speciality": "ИС","shift": "ночь"}]
