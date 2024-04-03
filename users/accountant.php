@@ -14,7 +14,7 @@ if ($_SESSION["position"] != "accountant") {
 
     <style>
         body {
-            background-color: #0077cc;
+            background-color: #3498db;
             display: flex;
             flex-direction: column;
             align-items: center;
