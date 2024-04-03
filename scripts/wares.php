@@ -127,7 +127,7 @@ $conn->close();
 
 <h1>Приход товаров</h1>
 <form action="addwares.php" method="post">
-    <label for="pname">Наименование продукта:</label>
+    <label for="pname">Наименование товара:</label>
     <input type="text" name="pname" id="pname" required><br>
 
     <label for="cid">ID клиента:</label>
