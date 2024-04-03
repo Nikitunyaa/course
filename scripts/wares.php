@@ -47,7 +47,7 @@ $conn->close();
 <head>
     <style>
         body {
-            background-color: #0077cc;
+            background-color: #3498db;
             color: white;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
@@ -67,7 +67,7 @@ $conn->close();
         form {
             width: 90%;
             margin: 0 auto;
-            background-color: #0077cc;
+            background-color: #3498db;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);

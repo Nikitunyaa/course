@@ -9,7 +9,7 @@ if ($_SESSION["position"] != "accountant" && $_SESSION["position"] != "admin" &&
 
 <style>
     body {
-        background-color: #0077cc;
+        background-color: #3498db;
         color: white;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         display: flex;

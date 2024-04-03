@@ -17,7 +17,7 @@ if ($_SESSION["position"] != "HR") {
     <title>Сотрудники</title>
     <style>
         body {
-            background-color: #0077cc;
+            background-color: #3498db;
             color: white;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
